@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Kumar Yogi - CEO Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="fade-in">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-container">
+            <div class="profile-img" style="background-image: url('Formal picture.jpg');"></div>
+            <div class="hero-text">
+                <h1 class="title-glow"> AJAY <span class="highlight">KUMAR</span> YOGI</h1>
+                <p class="subtitle"><span id="typing-text"></span><span class="cursor">|</span></p>
+                <div class="custom-callout">
+                    <span>Join the Journey of <span class="highlight">Excellence</span> & <span
+                            class="highlight">Innovation</span> 🚀</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about fade-in" id="about">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <p class="bio-text">Hello! I’m <span class="bold-accent">Ajay Yogi</span>, 22-year-old <span
+                class="styled-word italic-accent">MCA</span> At UPES, live from <span class="styled-word">Dehradun</span>,
+            roots in small village<span class="styled-word italic-accent"> Binjari</span>, <span
+                class="styled-word italic-accent">Rajasthan</span>. I’m transforming dreams into global achievements
+            with expertise in <span class="styled-word">IT</span>, <span class="styled-word">AI</span>, software
+            engineering, and <span class="styled-word">entrepreneurship</span>. I empower youth with insights on career
+            growth, freelancing, and business innovation, aiming to build a legacy of <span
+                class="styled-word italic-accent">leadership</span> and technology.</p>
+    </section>
+    <section class="services fade-in" id="services">
+        <h2 class="section-title">Our <span class="highlight">Services</span> <img src="AirACode.png"
+                alt="AirACode Logo" class="service-title-logo"></h2>
+        <p class="service-text">As a leading digital agency, <span class="styled-word"> AirACode </span> delivers
+            results-driven solutions in <span class="styled-word italic-accent">marketing</span>, <span
+                class="styled-word italic-accent">dashboards</span>, and technology innovation.</p>
+        <div class="service-image">
+            <img src="DasBoard.jpg" alt="Digital Marketing Dashboard" class="service-img">
+            <img src=" AirAcode dasboard.jpg" alt="Digital Marketing Dashboard" class="service-img">
+        </div>
+    </section>
+    <section class="achievements fade-in" id="achievements">
+        <h2 class="section-title">Achievements & <span class="highlight">Milestones</span></h2>
+        <p class="achievement-text">As a visionary CEO, I’ve driven success across diverse domains:</p>
+        <ul class="achievement-list">
+            <li>Completed <span class="styled-achievement">"Space Science and Technology Awareness Training"</span> by
+                <span class="brand">IIRS</span> (77%, <span class="highlight">A+</span>), 18-02-2025.</li>
+            <li>Participated in <span class="styled-achievement">Victorious Vangaura 2.0</span> by <span
+                    class="brand">UPES ACM & ACM-W</span>, 17-01-2025.</li>
+            <li>Mastered <span class="styled-achievement">"AI Dashboards using Microsoft Power BI"</span> by <span
+                    class="highlight">Mr. Jatan Shah</span>, 1st & 2nd March 2025.</li>
+            <li>Conquered <span class="styled-achievement">30-Days Power BI Micro Course</span> by <span
+                    class="brand">Skill Course</span>, 06-04-2025.</li>
+            <li>Completed <span class="styled-achievement">"Mentorship Program on Data Analytics"</span> by <span
+                    class="brand">Launched Global</span> (Certificate ID: LEDINTDA1017, <span
+                    class="highlight">A+</span>), Enthusiastic performance.</li>
+        </ul>
+        <div class="certificate-section">
+            <div class="certificate-carousel">
+                <div class="certificate-item active">
+                    <embed src="certificate_isro 1.pdf" type="application/pdf" class="certificate-pdf">
+                </div>
+                <div class="certificate-item">
+                    <embed src="certificate 3.pdf" type="application/pdf" class="certificate-pdf">
+                </div>
+                <div class="certificate-item">
+                    <embed src="certificate 4.pdf" type="application/pdf" class="certificate-pdf">
+                </div>
+                <div class="certificate-item">
+                    <embed src="certificate 2.pdf" type="application/pdf" class="certificate-pdf">
+                </div>
+                <div class="certificate-item">
+                    <embed src="Ajay Kumar Yogi .pdf" type="application/pdf" class="certificate-pdf">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button onclick="prevCertificate()" class="carousel-btn"><i class="fas fa-chevron-left"></i></button>
+                <button onclick="nextCertificate()" class="carousel-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="motivation fade-in">
+        <h2 class="section-title">Motivational <span class="highlight">Corner</span></h2>
+        <div class="quote-container">
+            <p id="motivationalQuote" class="quote"></p>
+        </div>
+        <button onclick="changeQuote()" class="inspire-btn">New <span class="highlight">Inspiration</span></button>
+    </section>
+    <section class="connect fade-in" id="contact">
+        <h2 class="section-title">Connect <span class="highlight">With Me</span></h2>
+        <div class="connect-grid">
+            <a href="https://www.instagram.com/bro_iajayyogi" target="_blank" class="connect-card instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://www.facebook.com/share/14WDqsv3GJ/" target="_blank" class="connect-card facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+            </a>
+            <a href="https://x.com/Ajayyogi" target="_blank" class="connect-card twitter">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
+            <a href="https://www.youtube.com/@bro_iajayyogii" target="_blank" class="connect-card youtube">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            <a href="https://www.linkedin.com/in/ajayyogi32" target="_blank" class="connect-card linkedin">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:ajaybusiness67@gmail.com" class="connect-card email">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://wa.me/7852855297" target="_blank" class="connect-card whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+        </div>
+        <p class="contact-info"><strong>Address:</strong> VPO - <span class="brand">Binjari</span>, <span
+                class="brand">Alwar</span>, Rajasthan 301408, INDIA</p>
+        <div class="contact-form">
+            <h3>Send a Message</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button onclick="sendMessage()" class="inspire-btn cta-btn">Send Message</button>
+        </div>
+    </section>
+    <footer class="fade-in">
+        <div class="footer-content">
+            <p>© 2025 <span class="brand">Ajay Kumar Yogi</span> | All Rights Reserved</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/ajayyogi32" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/Ajayyogi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:ajaybusiness67@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div id="certificateLightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">×</span>
+        <embed id="lightboxCertificate" src="" type="application/pdf" class="lightbox-pdf">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
